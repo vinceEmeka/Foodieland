@@ -92,11 +92,123 @@ li a {
 }
 
 .socials i {
-  margin: 0 2.5rem;
+  margin: 0 1rem;
   height: 19px;
   cursor: pointer;
 }
 
 hr {
   border: 1px solid #0000001a;
+}
+
+/* subcribe section  =======*/
+
+.subscribe {
+  margin: 0 80px 160px;
+  position: relative;
+  background: #e7f9fd;
+  border-radius: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 422px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.subcribe-header h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.subcribe-subheader p {
+  margin-bottom: 64px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--text-color2);
+  text-align: center;
+}
+
+.subcribe-center {
+  margin: 80px 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcribe-input {
+  display: flex;
+}
+.left-img {
+  position: absolute;
+  /* rotate: -30deg; */
+  width: 300px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.left-img img {
+  border-radius: 60px;
+}
+.right-img {
+  width: 275px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  /* bottom: 0px; */
+}
+.right-img img {
+  border-radius: 60px;
+}
+.middle-img {
+  width: 66px;
+  rotate: 31.5deg;
+  position: absolute;
+  bottom: 80px;
+  right: 245px;
+}
+
+.subcribe-input input {
+  padding: 32px;
+  width: 480px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.subcribe-input button {
+  margin-left: -100px;
+  margin: 10px 10px 10px -150px;
+}
+
+/* Footer SECTION  */
+footer {
+  margin: 0 80px 48px;
+}
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-two {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 338px; */
+}
+.footer-copyright {
+  color: var(--text-color2);
 }

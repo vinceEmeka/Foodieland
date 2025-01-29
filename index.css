@@ -407,7 +407,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
-  margin: 143px 80px 80px;
+  margin: 143px 80px 160px;
   /* gap: 0; */
 }
 
@@ -484,4 +484,109 @@
 .tomato {
   bottom: 124px;
   left: 34px;
+}
+
+/* INSTAGRAM SECTION ==================== */
+.instagram {
+  background-image: linear-gradient(#e7f9fd00, #e7f9fd);
+}
+
+.instagram-text h2 {
+  margin: 80px 300px 0px;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.instagram-text p {
+  margin: 24px 300px 80px;
+  /* max-width: 840px; */
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--text-color2);
+  /* max-width: 840px; */
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0px 80px 80px;
+}
+
+.post-item img {
+  width: 100%;
+  object-fit: contain;
+}
+.visit-link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.instagram button i {
+  margin-left: 16px;
+}
+
+/* recipe section  */
+
+.delicious {
+  margin: 160px 80px;
+}
+
+.delicious-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delicious-text h2 {
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+
+.delicious-text p {
+  margin: 15px 0px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--text-color2);
+}
+
+.recipe-lists {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.recipe-lists-item {
+  position: relative;
+}
+.small-like-or-unliked {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 48px;
+}
+.recipe-text h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.recipe-img img {
+  border-radius: 20px;
+  width: 100%;
 }
