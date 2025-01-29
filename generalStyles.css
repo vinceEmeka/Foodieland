@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --text-color: #000000;
+  --text-color2: #00000099;
+  --color-primary: #e7f9fd;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  /* color: var(--color-gray-900); */
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+}
+
+a {
+  transition: var(--transition);
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* NAVBAR*/
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo,
+span {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+li a {
+  margin: 0 30px;
+  color: var(--text-color);
+  font-weight: 500;
+  size: 1rem;
+}
+
+.socials i {
+  margin: 0 2.5rem;
+  height: 19px;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #0000001a;
+}
