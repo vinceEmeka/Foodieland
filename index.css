@@ -446,6 +446,7 @@
   background-image: linear-gradient(#e7f9fd00, #e7f9fd);
   border-radius: 30px;
   position: relative;
+  margin: 0 auto;
 }
 
 .learn-more-img img {
