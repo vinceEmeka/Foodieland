@@ -63,6 +63,16 @@ img {
   display: block;
   object-fit: cover;
 }
+.recipe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 16px;
+  padding: 18px 36px;
+  cursor: pointer;
+}
 
 /* NAVBAR*/
 .nav-bar {
@@ -186,6 +196,85 @@ hr {
   margin: 10px 10px 10px -150px;
 }
 
+/* recipe section  */
+
+.delicious {
+  margin: 160px 80px;
+}
+
+.delicious-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delicious-text h2 {
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+
+.delicious-text p {
+  margin: 15px 0px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--text-color2);
+}
+
+.recipe-lists {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.recipe-lists-item {
+  position: relative;
+}
+.small-like-or-unliked {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 48px;
+}
+.recipe-text h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.recipe-img img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.recipe-details {
+  gap: 24px;
+  display: flex;
+  color: var(--text-color2);
+  margin-top: 24px;
+  margin-bottom: 36px;
+  /* padding: 24px 8px 32px; */
+}
+
+.recipe-details-time,
+.recipe-details-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.recipe-details-time img,
+.recipe-details-type img {
+  width: 24px;
+}
+
 /* Footer SECTION  */
 footer {
   margin: 0 80px 48px;
@@ -207,8 +296,19 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   /* gap: 338px; */
 }
-.footer-copyright {
+
+.footer-two p {
+  font-weight: 400;
+  font-size: 1rem;
   color: var(--text-color2);
+  font-size: 1.1rem;
+}
+.footer-one p {
+  color: var(--text-color2);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
 }

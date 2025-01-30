@@ -1,0 +1,138 @@
+/* HEADER SECTION  */
+.blog-header {
+  margin: 80px 110px 64px;
+}
+
+.blog-header h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.blogger,
+.writer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.writer img {
+  width: 40px;
+  margin: 16px;
+}
+
+.writer p {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-right: 60px;
+}
+
+.blog-date {
+  border-left: 1px solid var(--text-color2);
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--text-color2);
+}
+
+.blog-p {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-p p {
+  max-width: 1059px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--text-color2);
+}
+
+.blog-header-img {
+  margin: 64px 80px 80px;
+}
+
+.blog-header-img img {
+  border-radius: 30px;
+}
+
+/* blog-contents SECTION ========= */
+
+.blog-contents {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 190px;
+}
+
+.main-contents {
+  padding: 0px 40px;
+}
+.question {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.answer {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--text-color2);
+  margin-top: 24px;
+}
+.blog-item {
+  margin-bottom: 84px;
+}
+
+.blog-item-img {
+  margin: 32px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-item-img img {
+  border-radius: 20px;
+}
+
+.quote {
+  background-image: linear-gradient(to right, #0000000d, #00000000);
+  /* padding: 48px 0px; */
+  margin: 0 -40px 64px;
+  border: 1px solid #0000001a;
+}
+
+.quote h3 {
+  font-weight: 500;
+  line-height: 4rem;
+  font-style: italic;
+  font-size: 2.2rem;
+  padding: 24px 40px 48px;
+  color: var(--text-color);
+}
+
+.blog-side-socials p {
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 130px;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.blog-side-socials .socials {
+  margin: 32px 54px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-side-socials .socials i {
+  margin-bottom: 48px;
+}
