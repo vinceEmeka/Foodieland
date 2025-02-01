@@ -10,6 +10,7 @@
   --text-color: #000000;
   --text-color2: #00000099;
   --color-primary: #e7f9fd;
+  --transition: all 350ms ease;
 }
 html {
   scroll-behavior: smooth;
@@ -64,12 +65,32 @@ img {
   object-fit: cover;
 }
 
+::-webkit-scrollbar {
+  background: linear-gradient(#e7f9fd00, #e7f9fd);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
 /* NAVBAR*/
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #0000001a;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+main {
+  margin-top: 80px;
 }
 
 .logo,
@@ -89,12 +110,29 @@ li a {
   color: var(--text-color);
   font-weight: 500;
   size: 1rem;
+  transition: border-bottom 0.2s, padding-bottom 0.2s;
+}
+li a:hover {
+  padding-bottom: 7px;
+  border-bottom: 3px solid black;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); */
+}
+.active {
+  padding-bottom: 7px;
+  border-bottom: 3px solid #ff7426;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); */
 }
 
 .socials i {
   margin: 0 1rem;
   height: 19px;
   cursor: pointer;
+  transition: transform 0.7s;
+}
+
+.socials i:hover {
+  cursor: pointer;
+  transform: translateY(-0.5rem);
 }
 
 hr {
@@ -228,7 +266,14 @@ hr {
 }
 .recipe-lists-item {
   position: relative;
+  transition: transform 0.7s;
 }
+
+.recipe-lists-item:hover {
+  cursor: pointer;
+  transform: translateY(-2rem);
+}
+
 .small-like-or-unliked {
   position: absolute;
   top: 16px;
@@ -279,6 +324,10 @@ hr {
   border-radius: 16px;
   padding: 18px 36px;
   cursor: pointer;
+  transition: box-shadow 0.7s;
+}
+.recipe-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Footer SECTION  */

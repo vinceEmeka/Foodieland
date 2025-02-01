@@ -215,7 +215,10 @@
   line-height: 1.1rem;
   font-size: 1rem;
   padding: 20px 27px;
-  cursor: pointer;
+  transition: box-shadow 0.7s;
+}
+.view-categories:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .categories-list {
@@ -227,6 +230,12 @@
 .category-item {
   position: relative;
   color: var(--text-color);
+  transition: transform 0.7s;
+}
+
+.category-item:hover {
+  cursor: pointer;
+  transform: translateY(-2rem);
 }
 .item-img {
   width: 100px;

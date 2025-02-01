@@ -1,3 +1,7 @@
+.main-contact {
+  margin-top: 168px;
+}
+
 form h1 {
   margin-top: 84px;
   margin-bottom: 80px;
@@ -51,6 +55,13 @@ textarea {
   line-height: 1.5rem;
   font-size: 0.8rem;
   width: 100%;
+  transition: border 0.5s;
+}
+
+.input-area:hover,
+select:hover,
+textarea:hover {
+  border: 1px solid #ff7426;
 }
 
 .message {
